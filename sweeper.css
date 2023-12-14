@@ -1,0 +1,82 @@
+body
+{
+padding: 40px;
+background:rgb(102, 146, 36);
+font-family: Blippo, fantasy;
+}
+
+
+
+
+#game_field
+{
+    display: grid;
+    grid-template-columns: repeat(10, 50px);
+    grid-auto-rows: repeat(10, 50px);
+    width: 500px;
+    height: 500px;
+    align-self: center;
+    background-color: rgb(122, 165, 209);
+    margin: auto;
+
+}
+
+.field
+{
+display: flex;
+}
+
+#restart, #open
+{
+    background-color: orange;
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    padding: auto;
+    line-height: 80px;
+    text-align: center;
+    border-radius: 50%;  
+    font-size: 12px;
+    position: absolute;
+    right: 80px;
+    top: 350px;  
+}
+
+
+#open
+{
+    background-color:red;
+    top: 550px;  
+}
+
+.fields
+{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    height:50px;
+    width: 50px;
+    line-height: 50px;
+    border: 2px dotted black;
+    position: relative;
+    place-self: center;    
+}
+
+#bottom_message_1
+{
+    text-align: center;
+    height: 60px;
+    line-height: 60px;
+    font-size: 25px;
+}
+
+#bottom_message_2
+{
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    font-size: 20px;
+
+
+}
+
